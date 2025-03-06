@@ -61,8 +61,8 @@ interest-rate-forecasting/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/interest-rate-forecasting.git
-   cd interest-rate-forecasting
+   git clone https://github.com/ujjman/Forecasting-Interest-Rate-Movements
+   cd Forecasting-Interest-Rate-Movements
    ```
 
 2. Create and activate a virtual environment (optional but recommended):

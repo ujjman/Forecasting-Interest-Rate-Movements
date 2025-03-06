@@ -92,7 +92,7 @@ if __name__ == "__main__":
     if not os.path.exists("data"):
         os.makedirs("data")
 
-    FRED_API_KEY = "1fbbb07efcbdc109ac6d308a76792725"  # Replace with your FRED API key
+    FRED_API_KEY = "YOUR_FRED_API_KEY"  # Replace with your FRED API key
     SERIES_IDS = ["CPIAUCSL", "UNRATE", "GDP", "FEDFUNDS"]
     macro_df = fetch_macro_data(FRED_API_KEY, SERIES_IDS)
     if macro_df is not None:
